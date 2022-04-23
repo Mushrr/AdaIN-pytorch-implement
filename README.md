@@ -86,4 +86,8 @@ Done !
 ```
 图片会自动保存在你之前定义的位置`outputImageName`
 
+*由于AdaIN - decoder*是一种效率非常高的基础迁移算法，你甚至可以实时视频风格迁移，  
+如果你愿意，你可以试试`VideoFastTransform.py`, 体验一把风格滤镜下的你（效果可能不是特别好，受噪声的影响比较大🤪🤪🤪🤪）
 
+**论文地址**
+[Arbitrary Style Transfer in Real-Time with Adaptive Instance Normalization](https://openaccess.thecvf.com/content_ICCV_2017/papers/Huang_Arbitrary_Style_Transfer_ICCV_2017_paper.pdf)
