@@ -262,65 +262,7 @@ class VGGLoss(nn.Module):
 2. 输入提取一个`AdaIN`单元， 并得到$I_{CS}$
 3. 进行迭代训练`decoder`
 
-### 8. 最终结果如何？
 
-![image-20220422130332485](D:\Code\2022\Poetry-Cloud\StyleTransForm\src\AtentionAETransfer\image\READEME\image-20220422130332485.png)
-
-连原始图片的整不明白，emmm
-
-[Github实现](https://github.com/naoto0804/pytorch-AdaIN)
-
-```python
-decoder = nn.Sequential(
-    nn.Conv2d(128, 64, (3, 3), padding=1),
-    nn.ReLU(inplace=True),
-    nn.Conv2d(64, 3, (3, 3), padding=1),
-    nn.ReLU(inplace=True),
-)
-```
-
-* 如上模型无法更新参数
-
-
-
-
-
-问题到底出在哪里？？？？？
-
-1. 为什么低维度特征会出现Nan
-
-
-
-
-
-
-会议记录：
-
-腾讯云 -> 阿里云平台
-
-
-
-脚本，方案，
-
-
-
-简化做一下，
-
-
-
-两个算法工程师在现场，对平台很熟悉、
-
-
-
-数据预处理，模型库
-
-
-
-方硕学长：VUE，
-
-构建模型，数据预测
-
-后端，存储数据
 
 
 
