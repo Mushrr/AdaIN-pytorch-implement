@@ -1,7 +1,5 @@
 # AdaAttN: Revisit Attention Mechanism in Arbitrary Neural Style Transfer
 
-[toc]
-
 ![img](image/READEME/1650371622228.png)
 
 ### *模型基础构建思路*
