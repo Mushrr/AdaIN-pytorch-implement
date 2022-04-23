@@ -1,6 +1,6 @@
 # AdaIN 模型实现指南 v-2
 
-![image-20220421203531587](D:\Code\2022\Poetry-Cloud\StyleTransForm\src\AtentionAETransfer\image\READEME\image-20220421203531587.png)
+![image-20220421203531587](https://github.com/HuangXingjie2002/AdaIN-pytorch-implement/blob/main/image/READEME/1650371622228.png)
 
 ##  模型组成
 
